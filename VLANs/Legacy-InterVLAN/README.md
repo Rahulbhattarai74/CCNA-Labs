@@ -10,19 +10,19 @@ Configure communication between multiple VLANs using separate physical router in
 
 ## VLAN Information
 
-VLAN    Department     Network       
-
- 10     Engineering     10.0.0.0/26   
- 20     HR              10.0.0.64/26  
- 30     Sales           10.0.0.128/26 
+| VLAN | Department  | Network       |
+| ---- | ----------- | ------------- |
+| 10   | Engineering | 10.0.0.0/26   |
+| 20   | HR          | 10.0.0.64/26  |
+| 30   | Sales       | 10.0.0.128/26 |
 
 ## Gateway Addresses
 
- VLAN      Gateway    
-  
-  10       10.0.0.62  
-  20       10.0.0.126 
-  30       10.0.0.190 
+| VLAN | Gateway    |
+| ---- | ---------- |
+| 10   | 10.0.0.62  |
+| 20   | 10.0.0.126 |
+| 30   | 10.0.0.190 |
 
 ## Tasks Completed
 
@@ -45,6 +45,7 @@ VLAN    Department     Network
 * Routing is performed by the router.
 * No trunk link is required.
 * This design does not scale well for large numbers of VLANs.
+
 
 ## Result
 
