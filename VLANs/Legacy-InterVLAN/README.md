@@ -49,3 +49,21 @@ VLAN    Department     Network
 ## Result
 
 Successful communication between all VLANs using Legacy Inter-VLAN Routing.
+
+## Screenshots
+
+### Topology
+
+![](1.topology.png)
+
+### VLAN Verification
+
+![](2.show-vlan-brief.png)
+
+### Broadcast Simulation
+
+![](3.simulation-broadcast.png)
+
+### Ping Verification
+
+![](4.ping-success.png)
