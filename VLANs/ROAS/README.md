@@ -24,3 +24,30 @@ Configure Inter-VLAN Routing using Router-on-a-Stick (ROAS).
 ## Result
 
 Successful communication between all VLANs using Router-on-a-Stick.
+## Result
+
+Successful communication between all VLANs using Router-on-a-Stick (ROAS).
+
+## Screenshots
+
+### Topology
+
+![](1.topology.png)
+
+### VLAN Verification
+
+![](2.show-vlant-trunk.png)
+
+### Trunk Verification
+
+![](3.show-interfaces-trunk.png)
+
+### Router Subinterfaces
+
+![](4.show-ip-interface-brief.png)
+
+### Ping Verification
+
+![](5.ping-success1.png)
+
+![](6.ping-success2.png)
