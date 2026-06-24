@@ -4,21 +4,34 @@ This repository contains my hands-on networking labs completed while studying CC
 
 ## Topics Covered
 
-* Network Fundamentals
-* IPv4 & IPv6
-* VLANs
-* Inter-VLAN Routing
-* Spanning Tree Protocol (STP)
-* EtherChannel
-* Static Routing
-* OSPF
-* EIGRP
-* ACLs
-* NAT
-* DHCP
-* DNS
-* SSH
-* Network Security Fundamentals
+- Network Fundamentals
+- IPv4 & IPv6
+
+- VLANs
+  - VTP
+  - DTP
+  - Legacy Inter-VLAN Routing
+  - Router-on-a-Stick (ROAS)
+  - Switch Virtual Interfaces (SVI)
+
+- Switching
+  - Spanning Tree Protocol (STP)
+  - EtherChannel
+
+- Routing
+  - Static Routing
+  - OSPF
+  - EIGRP
+
+- Network Services
+  - DHCP
+  - DNS
+  - NAT
+
+- Security & Management
+  - ACLs
+  - SSH
+  - Network Security Fundamentals
 
 ## Lab Environment
 
