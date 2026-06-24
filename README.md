@@ -8,7 +8,8 @@ This repository contains my hands-on networking labs completed while studying CC
 - IPv4 & IPv6
 
 - VLANs
-  - DTP & VTP
+  - VTP
+  - DTP
   - Legacy Inter-VLAN Routing
   - Router-on-a-Stick (ROAS)
   - Switch Virtual Interfaces (SVI)
