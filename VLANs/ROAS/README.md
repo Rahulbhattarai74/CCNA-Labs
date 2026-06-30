@@ -36,7 +36,7 @@ Successful communication between all VLANs using Router-on-a-Stick (ROAS).
 
 ### VLAN Verification
 
-![](2.show-vlant-trunk.png)
+![](2.show-vlan-trunk.png)
 
 ### Trunk Verification
 
