@@ -2,18 +2,19 @@
 
 ## Objective
 
-Configure static routes so that end devices on different networks can communicate.
+Configure static routes between multiple routers to enable end-to-end communication.
 
-## Tasks
+## Tasks Performed
 
-- Configured IP addresses
-- Configured static routes
-- Verified routing table
-- Verified end-to-end connectivity
+- Configured IP addresses on routers and PCs
+- Configured default gateways on PCs
+- Configured static routes on all routers
+- Verified routing tables
+- Verified end-to-end connectivity using ping
 
 ## Result
 
-Successful communication between PC1 and PC2 using static routing.
+Successfully established connectivity between PC1 and PC2 using static routing.
 
 ## Screenshots
 
@@ -21,18 +22,22 @@ Successful communication between PC1 and PC2 using static routing.
 
 ![Topology](1.topology.png)
 
-### 2. Router IP Configuration
+### 2. R1 Static Route Configuration
 
-![Router IP](2.router-ip-config.png)
+![R1 Static Route](2.r1-static-route.png)
 
-### 3. Static Route Configuration
+### 3. R2 Static Route Configuration
 
-![Static Route](3.static-route-config.png)
+![R2 Static Route](3.r2-static-route.png)
 
-### 4. Routing Table
+### 4. R3 Static Route Configuration
 
-![Routing Table](4.show-ip-route.png)
+![R3 Static Route](4.r3-static-route.png)
 
-### 5. Ping Verification
+### 5. Routing Table Verification
 
-![Ping](5.ping-success.png)
+![Show IP Route](5.show-ip-route.png.png)
+
+### 6. Ping Verification
+
+![Ping Success](6.ping-success.png)
