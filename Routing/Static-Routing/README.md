@@ -36,7 +36,7 @@ Successfully established connectivity between PC1 and PC2 using static routing.
 
 ### 5. Routing Table Verification
 
-![Show IP Route](5.show-ip-route.png.png)
+![Show IP Route](5.show-ip-route.png)
 
 ### 6. Ping Verification
 
