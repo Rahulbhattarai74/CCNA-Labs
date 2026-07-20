@@ -2,15 +2,14 @@
 
 ## Overview
 
-This project is a complete CCNA Enterprise campus network built in Cisco Packet Tracer. It integrates multiple networking technologies into a single enterprise topology consisting of two office locations connected through a redundant core.
+This project is a complete enterprise network built in Cisco Packet Tracer as part of CCNA practice. The lab combines multiple networking technologies into a single topology with two office locations connected through a redundant core network and Internet access.
 
 ## Technologies Implemented
 
 - VLANs
-- 802.1Q Trunking
 - Inter-VLAN Routing (SVIs)
-- EtherChannel (LACP)
-- Rapid PVST+
+- 802.1Q Trunking
+- EtherChannel (PAgP)
 - HSRP
 - OSPF
 - DHCP
@@ -20,50 +19,41 @@ This project is a complete CCNA Enterprise campus network built in Cisco Packet 
 - Wireless LAN Controller (WLC)
 - Lightweight Access Points (LWAP)
 - Voice VLAN
-- SSH
 - DNS
+- End-to-End Connectivity Testing
+
+## Network Topology
+
+- 1 Edge Router (Internet Connectivity)
+- 2 Core Switches
+- 4 Distribution Switches
+- 6 Access Switches
+- Wireless LAN Controller
+- Lightweight Access Points
+- PCs
+- Laptops
 - IP Phones
+- Server
 
-## Topology
+## Verification
 
-The enterprise network contains:
+The following features were successfully verified:
 
-- Core Layer
-  - CSW1
-  - CSW2
+- VLAN communication
+- EtherChannel operation
+- HSRP redundancy
+- OSPF neighbor relationships
+- DHCP address assignment
+- NAT translations
+- ACL functionality
+- Wireless connectivity
+- Internet connectivity
 
-- Distribution Layer
-  - DSW-A1
-  - DSW-A2
-  - DSW-B1
-  - DSW-B2
+## Packet Tracer Assessment
 
-- Access Layer
-  - ASW-A1
-  - ASW-A2
-  - ASW-A3
-  - ASW-B1
-  - ASW-B2
-  - ASW-B3
+**Score:** **1751 / 1753**
 
-- End Devices
-  - PCs
-  - Laptops
-  - Server
-  - IP Phones
-  - Wireless Clients
-
-## Result
-
-- Enterprise network successfully configured.
-- End-to-end connectivity verified.
-- Dynamic routing functioning correctly.
-- Redundant gateways operating using HSRP.
-- Wireless clients connected successfully.
-- DHCP and NAT working properly.
-- **Packet Tracer Assessment Score: 1751/1753**.
-
-> **Note:** One Packet Tracer assessment item related to the named extended ACL (`ip access-group OfficeA_to_OfficeB in`) remains ungraded, although the ACL itself is configured and functioning as expected.
+> **Note:** Two assessment points related to the named Extended ACL application were not awarded by the Packet Tracer activity checker. The ACL configuration and network functionality were verified manually.
 
 ---
 
@@ -73,41 +63,61 @@ The enterprise network contains:
 
 ![Topology](1.topology.png)
 
+---
+
 ## 2. VLAN Configuration
 
-![VLAN](2.vlan-config.png)
+![VLAN Configuration](2.vlan-config.png)
+
+---
 
 ## 3. EtherChannel
 
 ![EtherChannel](3.etherchannel.png)
 
-## 4. STP & HSRP
+---
 
-![STP](4.stp-hsrp.png)
+## 4. HSRP
 
-## 5. OSPF
+![HSRP](4.hsrp.png)
+
+---
+
+## 5. OSPF Neighbor Verification
 
 ![OSPF](5.ospf.png)
 
-## 6. DHCP
+---
+
+## 6. DHCP Bindings
 
 ![DHCP](6.dhcp.png)
 
-## 7. NAT
+---
+
+## 7. NAT Translations
 
 ![NAT](7.nat.png)
 
-## 8. Extended ACL
+---
+
+## 8. Access Control Lists
 
 ![ACL](8.acl.png)
 
-## 9. Wireless Configuration
+---
+
+## 9. Wireless Connectivity
 
 ![Wireless](9.wireless.png)
 
-## 10. End-to-End Connectivity
+---
+
+## 10. End-to-End Connectivity Test
 
 ![Ping](10.final-ping.png)
+
+---
 
 ## 11. Packet Tracer Assessment
 
